@@ -1,5 +1,6 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* overflow-x: hidden; */
 }
 
 .nav-title {
@@ -32,7 +33,10 @@ body {
     background-color: #3e8e41;
 }
 
-.hero-section {
+
+
+
+#hero-section {
     background-image: url('./images/hammer-2.jpg');
     background-size: cover;
     background-position: center;
@@ -63,7 +67,7 @@ body {
 }
 
 .hero-header {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 60px;
     margin: 80px, 0px;
@@ -82,4 +86,144 @@ body {
 
 .hero-buttons a {
     margin: 10px 20px 10px 0px;
+}
+
+
+
+#about-section {
+    background-color: white;
+    height: 50vh;
+    background-image: url('./images/curve2.svg');
+    background-size: cover;
+}
+
+.about-header {
+    position: relative;
+    padding: 50px 0px 0px 50px;
+    font-size: 27px;
+}
+
+.about-header::before {
+    margin-left: 50px;
+    content: "";
+    width: 5%;
+    height: 8px;
+    background-color: rgb(52, 56, 52);
+    position: absolute;
+    bottom: -10px;
+    border-radius: 50px;
+    left: 0;
+}
+
+
+
+/* #divider2 {
+    height: 700px;
+} */
+
+
+
+#practice-section {
+    background-color: rgb(227,211,188);
+}
+
+.practice-header {
+    position: relative;
+    padding: 50px 0px 0px 50px;
+    font-size: 27px;
+}
+
+.practice-header::before {
+    margin-left: 50px;
+    content: "";
+    width: 9%;
+    height: 8px;
+    background-color: rgb(52, 56, 52);
+    position: absolute;
+    bottom: -10px;
+    border-radius: 50px;
+    left: 0;
+}
+
+.practice-body {
+    padding: 50px;
+}
+
+.practice-body .field-image img {
+    width: 30px;
+    padding-top: 20px;
+}
+
+.practice-body .field-title {
+    /* font-size: 20px; */
+    padding-top: 5px;
+    color: black;
+    font-weight: 700;
+}
+
+.practice-body .field-description {
+    font-size: 14px;
+    padding: 20px 0px;
+}
+
+.practice-body .field-button {
+    padding: 20px 0px;
+}
+
+.practice-body .field-button a {
+    margin-right: 50px;
+}
+
+
+
+
+
+#consult-section {
+    background-color: white;
+    height: 50vh;
+    background-image: url('./images/curve2.svg');
+    background-size: cover;
+}
+
+.consult-header {
+    position: relative;
+    padding: 50px 0px 0px 50px;
+    font-size: 27px;
+}
+
+.consult-header::before {
+    margin-left: 50px;
+    content: "";
+    width: 9%;
+    height: 8px;
+    background-color: rgb(52, 56, 52);
+    position: absolute;
+    bottom: -10px;
+    border-radius: 50px;
+    left: 0;
+}
+
+
+
+
+
+footer {
+    overflow: hidden;
+    font-size: 13px;
+    padding: 40px 0px;
+}
+
+footer h5 {
+    font-variant: small-caps;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.footer-col {
+    padding: 10px 0px;
+}
+
+.copyright {
+    font-size: 13px;
+    text-align: center;
 }
