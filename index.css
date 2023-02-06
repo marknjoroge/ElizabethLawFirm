@@ -1,46 +1,85 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .nav-title {
     font-variant: small-caps;
-    /* color: green; */
 }
-.dropbtn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropdown {
+
+.dropdown {
     position: relative;
     display: inline-block;
-  }
-  
-  .dropdown-content {
+    margin-right: 18px;
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
-    right: 0;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
+}
+
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #f1f1f1;}
-  .dropdown:hover .dropdown-content {display: block;}
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
-/*   
-.dropdown-content {
-    display: none;
 }
 
-.dropdown-link:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
-} */
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.hero-section {
+    background-image: url('./images/hammer-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* overflow: hidden; */
+}
+
+.hero-details {
+    height: 100%;
+}
+
+.hero-container {
+    max-width: 550px;
+    padding: 400px;
+    padding: 50px;
+    max-height: fit-content;
+    background-image: url('./images/curve.svg');
+    background-size: cover;
+}
+
+.hero-details svg {
+    /* fill: #FFFFFF; */
+    /* transform: scale(-1, 1) !important; */
+}
+
+.hero-container {
+    /* background-color: red; */
+}
+
+.hero-header {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 80px, 0px;
+}
+
+.div1 {
+    height: 700px;
+    /* background-image: url('./images/hammer-2.jpg'); */
+    background-size: cover;
+}
+
+.divider-1 {
+    height: 200px;
+    /* background-image: url('./images/wave-haikei.png'); */
+}
+
+.hero-buttons a {
+    margin: 10px 20px 10px 0px;
+}
